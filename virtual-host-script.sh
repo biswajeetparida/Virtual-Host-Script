@@ -18,6 +18,7 @@ echo "
       <Directory $WEB_ROOT_DIR/>
         Options Indexes FollowSymLinks
         AllowOverride all
+        Require all granted
 
       </Directory>
     </VirtualHost>" > $sitesAvailabledomain
